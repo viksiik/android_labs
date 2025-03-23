@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ResultScreen.dart';
 
 void main() {
@@ -192,6 +191,7 @@ class _InputScreenState extends State<InputScreen> {
             Center(
               child: ElevatedButton(
                 onPressed: navigateToResult,
+
                 child: Text("OK",
                     style: TextStyle(
                         fontFamily: selectedFont,
